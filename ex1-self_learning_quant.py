@@ -53,6 +53,8 @@ def init_state(data):
     return state, xdata
 
 #Take Action
+# Backtesting - Backtesting is the process of applying a trading strategy or analytical method to historical data to see 
+# how accurately the strategy or method would have predicted actual results.
 def take_action(state, xdata, action, signal, time_step):
     #this should generate a list of trade signals that at evaluation time are fed to the backtester
     #the backtester should get a list of trade signals and a list of price data for the assett
