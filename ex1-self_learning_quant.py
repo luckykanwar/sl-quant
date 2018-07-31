@@ -153,7 +153,7 @@ import random, timeit
 
 start_time = timeit.default_timer()
 
-indata = load_data()
+indata = load_data() # This loads an array of length 20 (0-19)
 epochs = 10
 gamma = 0.9 #a high gamma makes a long term reward more valuable
 epsilon = 1
